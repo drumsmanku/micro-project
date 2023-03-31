@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather+Sans&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.main-foot{
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  background-color: #282828;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.main-body{
+  height: 70vh;
+  width: 36%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  line-height: 32px;
+  justify-content: center;
+  
+
+}
+main{
+  background-color: #FFCD9E;
+  display: flex;
+  justify-content: space-evenly;
+  /* justify-content: center; */
+  align-items: center;
+}
+.ffp ul li a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Inter';
+  line-height: 32px;
+}
+.ffp ul{
+  list-style: none;
+}
+.sfp{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: white;
+  font-family: 'Inter';
+  line-height: 32px;
+  margin-top: 30px;
+}
+.sfp img{
+  height: 27.42px;
+  width: 29.41px;
+}
+.sfp a{
+  text-decoration: none;
+  color: white;
+}
+#second-anchor{
+  line-height: 78px;
+}
+.imgs{
+  margin-top: 14px;
+}
+#fh3{
+  color:#484848 ;
+  font-family: 'Inter';
+  
+}
+.test-ran{
+  color: #282828;
+  font-weight:800;
+  font-family: 'Inter';
+  font-size: 20px;
+  margin: 30px 0px 30px 0px;
+}
+.main-body>h1{
+  color: #282828;
+  font-family: 'Inter';
+  font-weight: bolder;
+  line-height: 1.5;
+  
+}
+.img-man img{
+  height: 380.52px;
+}
+.hh3{
+  width: 454px;
+  margin-top: 36px;
+}
+.mail-holder input[type="email"]{
+  height: 50px;
+  width: 300px;
+  border: 3.4px solid black ;
+  border-radius: 10px;
+  
+}
+.mail-holder input[type="email"]::placeholder{
+  font-family: 'Inter';
+  position: relative;
+  padding-left: 20px;
+  font-size: 18px;
+  top: 3px;
+  font-weight: bold;
+}
+.mail-holder input[type="button"]{
+  background-color: #282828;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  height: 55px;
+  width: 160px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Inter';
+}
+
